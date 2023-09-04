@@ -1,0 +1,50 @@
+{
+    "Students": [
+        {"id": 2, "name": "John Wick", "age": 124, "sex": "male"},
+        {"id": 3, "name": "Johnny Bravo", "age": 5, "sex": "male"},
+        {"id": 4, "name": "Joan L'Arc", "age": 1240, "sex": "female"},
+        {"id": 5, "name": "Jolyne Kujo", "age": 16, "sex": "female"},
+        {"id": 1, "name": "Joe Biden", "age": 12, "sex": "male"},
+        {"id": 6, "name": "John F. Kennedy", "age": 19, "sex": "male"},
+        {"id": 7, "name": "Jennifer Lopez", "age": 45, "sex": "female"},
+        {"id": 8, "name": "Jill Valentine", "age": 28, "sex": "female"}
+    ],
+    "Grades": [
+        {"id": 1, "grade": 9, "courseId": 1, "studentId": 1 },
+        {"id": 2, "grade": 10, "courseId": 2, "studentId": 1 },
+        {"id": 3, "grade": 8, "courseId": 1, "studentId": 2 },
+        {"id": 4, "grade": 7, "courseId": 2, "studentId": 2 },
+        {"id": 5, "grade": 2, "courseId": 1, "studentId": 3 },
+        {"id": 6, "grade": 3, "courseId": 2, "studentId": 3 },
+        {"id": 7, "grade": 8, "courseId": 1, "studentId": 4 },
+        {"id": 8, "grade": 7, "courseId": 2, "studentId": 4 },
+        {"id": 9, "grade": 6, "courseId": 1, "studentId": 5 },
+        {"id": 10, "grade": 5, "courseId": 2, "studentId": 5 },
+        {"id": 9, "grade": 8, "courseId": 1, "studentId": 6 },
+        {"id": 10, "grade": 9, "courseId": 2, "studentId": 6 },
+        {"id": 9, "grade": 3, "courseId": 1, "studentId": 7 },
+        {"id": 9, "grade": 1, "courseId": 2, "studentId": 7 },
+        {"id": 10, "grade": 10, "courseId": 1, "studentId": 8 },
+        {"id": 10, "grade": 1, "courseId": 2, "studentId": 8 }
+    ],
+    "Courses": [
+        {"id": 1, "name": "Development", "teacherId": 2},
+        {"id": 2, "name": "Analysis", "teacherId": 1}
+    ],
+    "Teachers": [
+        {"id": 1, "name": "Mr. Miyagi"},
+        {"id": 2, "name": "Yoda"}
+    ],
+    "StudentsCourses": [
+        {"id": 1, "courseId": 1, "studentId": 1 },
+        {"id": 2, "courseId": 2, "studentId": 1 },
+        {"id": 3, "courseId": 1, "studentId": 2 },
+        {"id": 4, "courseId": 2, "studentId": 2 },
+        {"id": 5, "courseId": 1, "studentId": 3 },
+        {"id": 6, "courseId": 2, "studentId": 3 },
+        {"id": 7, "courseId": 1, "studentId": 4 },
+        {"id": 8, "courseId": 2, "studentId": 4 },
+        {"id": 9, "courseId": 1, "studentId": 5 },
+        {"id": 10, "courseId": 2, "studentId": 5 }
+    ]
+}
